@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: 
+    radial-gradient(calc(1.28*32px + 12px/2) at left 50% bottom calc(-.8*32px),#e64a74 calc(100% - 12px),#51f28e calc(101% - 12px) 100%,#0000 101%) calc(2*32px) calc(-1*calc(1.5*32px + 12px)),
+    radial-gradient(calc(1.28*32px + 12px/2) at left 50% bottom calc(-.8*32px),#f2a4b9 calc(100% - 12px),#51f28e calc(101% - 12px) 100%,#0000 101%) calc(-1*32px) calc(calc(1.5*32px + 12px)/-2),
+    radial-gradient(calc(1.28*32px + 12px/2) at left 50% top    calc(-.8*32px),#f2a4b9 calc(100% - 12px),#51f28e calc(101% - 12px) 100%,#0000 101%) 0 calc(1.5*32px + 12px),
+    radial-gradient(calc(1.28*32px + 12px/2) at left 50% top    calc(-.8*32px),#e64a74 calc(100% - 12px),#51f28e calc(101% - 12px) 100%,#0000 101%) 32px calc(calc(1.5*32px + 12px)/ 2),
+    linear-gradient(#e64a74 50%,#f2a4b9 0);
+background-size: calc(4*32px) calc(1.5*32px + 12px);
+
+    text-align: center;
+}
+
+.container{
+    background: #1ecbe1;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left:50%;
+transform: translate(-50%, -50%);
+font-size: 70px;
+}
